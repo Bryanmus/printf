@@ -84,24 +84,14 @@ int	main()
 
 	
 	count = my_printf("Hello %s\n", "John");
-	printf("%d chars\n", count);//, fflush(stdout);
+	printf("%d chars\n", count);
 	count = my_printf("Char-> %c\n", 'a');
-	printf("%d chars\n", count);//, fflush(stdout);
+	printf("%d chars\n", count);
 	count =my_printf("Nbr-> %d\n", -42);
-	printf("%d chars\n", count);//, fflush(stdout);
+	printf("%d chars\n", count);
 	count = my_printf("Hex-> %x\n", -1);
-	printf("%d chars\n", count);//, fflush(stdout);
+	printf("%d chars\n", count);
 
-	//REAL 
-	printf("\n\n");
-	puts("REAL PRINTF");
-	count = printf("Hello %s\n", "John");
-	printf("%d chars\n", count);//, fflush(stdout);
-	count = printf("Char-> %c\n", 'a');
-	printf("%d chars\n", count);//, fflush(stdout);
-	count = printf("Nbr-> %d\n", -42);
-	printf("%d chars\n", count);//, fflush(stdout);
-	count = printf("Hex-> %x\n", -1);
-	printf("%d chars\n", count);//, fflush(stdout);
+ return 0;
 
 }
